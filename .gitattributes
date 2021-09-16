@@ -52,3 +52,4 @@
 *.meta linguist-generated
 *.prefab linguist-generated
 *.unity linguist-generated
+.psd filter=lfs diff=lfs merge=lfs -text
