@@ -48,8 +48,12 @@
 *.tiff filter=lfs diff=lfs merge=lfs -text
 # Collapse Unity-generated files on GitHub
 *.asset linguist-generated
-*.mat linguist-generated
+*.mat filter=lfs diff=lfs merge=lfs -text
 *.meta linguist-generated
-*.prefab linguist-generated
+*.prefab filter=lfs diff=lfs merge=lfs -text
 *.unity linguist-generated
 .psd filter=lfs diff=lfs merge=lfs -text
+*.3dm[[:space:]]filter=lfs[[:space:]]diff=lfs[[:space:]]merge=lfs[[:space:]]-text filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.unity. filter=lfs diff=lfs merge=lfs -text
+*pathname. filter=lfs diff=lfs merge=lfs -text
