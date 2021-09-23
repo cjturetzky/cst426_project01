@@ -30,6 +30,10 @@ public class LightsController : MonoBehaviour
         {
             Debug.Log("All lights are on!");
             win.Play();
+            button1.GetComponent<LightsSingularColor>().win();
+            button2.GetComponent<LightsSingularColor>().win();
+            button3.GetComponent<LightsSingularColor>().win();
+            button4.GetComponent<LightsSingularColor>().win();
         }
     }
 

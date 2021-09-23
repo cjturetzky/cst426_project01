@@ -15,7 +15,10 @@ public class LightsSingularColor : MonoBehaviour
 
      void OnMouseDown()
     {
-        switchLight();
+        if(!on)
+        {
+            switchLight();
+        }
     }
 
     public void switchLight()
@@ -29,6 +32,7 @@ public class LightsSingularColor : MonoBehaviour
         {
             on = true;
             button.material.color = Color.white;
+            
         }
         reference.checkOn();
 
@@ -37,5 +41,10 @@ public class LightsSingularColor : MonoBehaviour
     public bool getStatus()
     {
         return on;
+    }
+
+    public void win()
+    {
+        button.material.color = Color.green;
     }
 }
