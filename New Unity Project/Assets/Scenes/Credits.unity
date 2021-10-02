@@ -152,7 +152,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 122465287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f2a7cb49beec514fa8ec94ef115b06a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f05d6233f94319468703a75ddf7f4e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &122465289
@@ -588,7 +588,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: cc4f2b4932e48354bb68186e151a0acb, type: 3}
+    m_Font: {fileID: 12800000, guid: 25341ef57a7c2df468e85f3fd8ea24be, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -726,8 +726,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: 24.14319}
-  m_SizeDelta: {x: 726.489, y: 346.3212}
+  m_AnchoredPosition: {x: 0.0000076294, y: 0.0000047684}
+  m_SizeDelta: {x: 825.4421, y: 412.7614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1841985100
 MonoBehaviour:
@@ -750,8 +750,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: cc4f2b4932e48354bb68186e151a0acb, type: 3}
-    m_FontSize: 26
+    m_Font: {fileID: 12800000, guid: 25341ef57a7c2df468e85f3fd8ea24be, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -762,23 +762,31 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This game was created by
+  m_Text: 'To Play the game, move around with WASD.
+
+    To interact with objects,
+    click on them
+
+
+
+    This game was created by
 
 
     Connor Turetzky
 
-    Isabel Kasim
+    Isabel
+    Kasim
 
-    Chris
-    Cisneros
+    Chris Cisneros
 
     Brendon Magana
 
 
-    for educatonal purposes and not intended
+    for educatonal purposes and
+    not intended
 
-    to
-    be used in any commercial property without consent of the owners.'
+    to be used in any commercial property without consent of the
+    owners.'
 --- !u!222 &1841985101
 CanvasRenderer:
   m_ObjectHideFlags: 0
