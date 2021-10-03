@@ -22,7 +22,15 @@ public class Players_Hands : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+
+        // this updated option will be to quite the game once you are done
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+
+        }
+
+        if (Input.GetMouseButtonDown(0))
         {
             if (heldObj == null)
             {
